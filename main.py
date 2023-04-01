@@ -19,7 +19,7 @@ while True :
           audio = r.listen(source)
           command = r.recognize_google(audio , language="ru-RU")
           print("Вы сказали: " +command)
-    openai.api_key = "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"
+    openai.api_key = "Apikey"
 
     response = openai.Completion.create(
         model="text-davinci-003",
